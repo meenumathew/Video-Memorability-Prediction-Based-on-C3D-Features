@@ -37,6 +37,8 @@ As compared GroundTruth DataSet With HMP features,The second data set(GroundTrut
 
 ![Table.1 Results and Analysis of different Model](images/table1_ResultsAndAnalysisOfDifferentModel.JPG "Table.1 Results and Analysis of different Model")
 
+<img align="center" alt="Table.1 Results and Analysis of different Model" title="Table.1 Results and Analysis of different Model" src="http://www.fillmurray.com/100/100">
+
 # V. DISCUSSION AND OUTLOOK
 Selecting the most relevant features of each feature data tests and then combining all that revant features into a ground truth set might give more accurate predictions.
 
