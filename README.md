@@ -42,13 +42,13 @@ Selecting the most relevant features of each feature data tests and then combini
 
 - [1] Romain Cohendet, Claire-Hélène Demarty, Ngoc Q. K.Duong1, Mats Sjöberg, Bogdan Ionescu, and Thanh-Toan Do.(2018). MediaEval 2018: Predicting Media Memorability. arXiv:1807.01052
 - [2] Du Tran, Lubomir Bourdev, Rob Fergus, Lorenzo Torresani, and Manohar Paluri. 2015. Learning Spatiotemporal Features with 3D Convolutional Networks. In Proc. IEEE Int. Conf. on Computer Vision (ICCV). 4489–4497
-[3] Jurandy Almeida, Neucimar J Leite, and Ricardo da S Torres. 2011. Comparison of video sequences with histograms of motion patterns. In Image Processing (ICIP), 2011 18th IEEE International Conference on. IEEE, 3673–3676.
-[4] Navneet Dalal and Bill Triggs. 2005. Histograms of oriented gradients for human detection. In Computer Vision and Pattern Recognition, 2005. CVPR 2005. IEEE Computer Society Conference on, Vol. 1. IEEE, 886–893.
-[5] Dong-Chen He and Li Wang. 1990. Texture unit, texture spectrum, and texture analysis. IEEE transactions on Geoscience and Remote Sensing 28, 4 (1990), 509–512.
-[6] Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jon Shlens, and Zbigniew Wojna. 2016. Rethinking the inception architecture for computer vision. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2818–2826.
-[7] Ethan Rublee, Vincent Rabaud, Kurt Konolige, and Gary Bradski. 2011. ORB: An efficient alternative to SIFT or SURF. In Computer Vision (ICCV), 2011 IEEE international conference on. IEEE, 2564–2571.
-[8] J. Han, C. Chen, L. Shao, X. Hu, J. Han, and T. Liu. Learning computational models of video memorability from fmri brain imaging. IEEE transactions on Cybernetics, 45(8):1692– 1703, 2015.
-[9] S. Shekhar, D. Singal, H. Singh, M. Kedia and A.Shetty, "Show and Recall: Learning What Makes Videos Memorable," 2017 IEEE International Conference on Computer Vision Workshops (ICCVW), 2017, pp. 2730-2739, doi: 10.1109/ICCVW.2017.321.
+- [3] Jurandy Almeida, Neucimar J Leite, and Ricardo da S Torres. 2011. Comparison of video sequences with histograms of motion patterns. In Image Processing (ICIP), 2011 18th IEEE International Conference on. IEEE, 3673–3676.
+- [4] Navneet Dalal and Bill Triggs. 2005. Histograms of oriented gradients for human detection. In Computer Vision and Pattern Recognition, 2005. CVPR 2005. IEEE Computer Society Conference on, Vol. 1. IEEE, 886–893.
+- [5] Dong-Chen He and Li Wang. 1990. Texture unit, texture spectrum, and texture analysis. IEEE transactions on Geoscience and Remote Sensing 28, 4 (1990), 509–512.
+- [6] Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jon Shlens, and Zbigniew Wojna. 2016. Rethinking the inception architecture for computer vision. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2818–2826.
+- [7] Ethan Rublee, Vincent Rabaud, Kurt Konolige, and Gary Bradski. 2011. ORB: An efficient alternative to SIFT or SURF. In Computer Vision (ICCV), 2011 IEEE international conference on. IEEE, 2564–2571.
+- [8] J. Han, C. Chen, L. Shao, X. Hu, J. Han, and T. Liu. Learning computational models of video memorability from fmri brain imaging. IEEE transactions on Cybernetics, 45(8):1692– 1703, 2015.
+- [9] S. Shekhar, D. Singal, H. Singh, M. Kedia and A.Shetty, "Show and Recall: Learning What Makes Videos Memorable," 2017 IEEE International Conference on Computer Vision Workshops (ICCVW), 2017, pp. 2730-2739, doi: 10.1109/ICCVW.2017.321.
 
 
 
