@@ -28,6 +28,7 @@ Regression and Random Forest Regression and then Calculate the Spearman’s Rank
 - Split the 80% of data set as training set and 20% of data set as testing set.
 - Build a Linear Regression, Decision Tree Model, Gradient Boosting Regression and Random Forest Regression for both Short TErm Memorability and Long Term Memorability.
 - Find the Spearman’s Rank Correlation Coefficient of each model for finding the best one.
+
 After analyzing the value of Spearman’s Rank Correlation Coefficient of this dataset ,decided to take this dataset and also choose the Random Forest Model, which has the highest score, for determining the final data set.For predicting ground truth values take combined dataset of ground truth and C3D Features of Dev-Set as aTraining Set and corresponding Test-Set data(ground truth data set +C3D features dataset of Test-Set Folder).Then applied PCA for X variable and build Random Forest Regression Model.Finally, the predicted ground truth values are saved as csv file.
 
 # IV. RESULTS AND ANALYSIS
