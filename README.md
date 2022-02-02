@@ -37,7 +37,7 @@ As compared GroundTruth DataSet With HMP features,The second data set(GroundTrut
 
 <center>    
   <img alt="Table.1 Results and Analysis of different Model" src="images/table1_ResultsAndAnalysisOfDifferentModel.JPG">
-  <em> **Table.1 Results and Analysis of different Model**</em>
+  <em># Table.1 Results and Analysis of different Model</em>
 </center>
 
 # V. DISCUSSION AND OUTLOOK
