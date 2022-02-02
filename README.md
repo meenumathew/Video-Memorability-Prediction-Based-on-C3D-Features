@@ -15,7 +15,7 @@ videos played together in a sequence, followed by a recall task after two days o
 # III. METHODOLOGY
 # Data Set: 
 The dataset is composed of 10,000 short soundless videos shared under a license that allows their use and redistribution in the context of MediaEval 2018. These 10,000 videos were split into 8,000 videos for the development set and 2,000 videos for the test set.[1].Also have data sets of features includes: Captions, C3D spatiotemporal visual features,a 3-dimensional convolutional network proposed for generic video analysis[2] , HMP, the histogram of motion patterns for each video[3].HoG descriptors (Histograms of Oriented Gradients) [4] are calculated on 32x32 windows on a grayscale version of each frame; LBP (Local Binary Patterns) are calculated for patches of 8x15 pixels[5], InceptionV3 features correspond to the output of the fc7 layer of the InceptionV3 deep network [6]; ORB features[7] ,BRIEF descriptor ,Color histograms are computed in the HSV space and Aesthetic visual features, composed of color, texture and object based descriptors, aggregated through the computation of their mean and median values, are extracted for each 10-frame of one single video[1].
-# APPROACH 
+# Approach
 Among the above mentioned features I have selected two features such as HMP and C3D for predicting short term memorability and long term memorability.
 To find the best model, I have used Dev-Set data which contains information of 6000 videos with ground truth values and then split it into two datasets for training and
 testing purposes. First I take HMP Features and then combine it with a ground truth dataset. While analysing this data I could find that there exist so many columns(1189 columns) having zero values;In addition to no of features of data set is much bigger than its row count.And so to improve its accuracy I
@@ -29,6 +29,23 @@ Regression and Random Forest Regression and then Calculate the Spearman’s Rank
 ● Build a Linear Regression, Decision Tree Model, Gradient Boosting Regression and Random Forest Regression for both Short TErm Memorability and Long Term Memorability.
 ● Find the Spearman’s Rank Correlation Coefficient of each model for finding the best one.
 After analyzing the value of Spearman’s Rank Correlation Coefficient of this dataset ,decided to take this dataset and also choose the Random Forest Model, which has the highest score, for determining the final data set.For predicting ground truth values take combined dataset of ground truth and C3D Features of Dev-Set as aTraining Set and corresponding Test-Set data(ground truth data set +C3D features dataset of Test-Set Folder).Then applied PCA for X variable and build Random Forest Regression Model.Finally, the predicted ground truth values are saved as csv file.
+
+# IV. RESULTS AND ANALYSIS
+
+As compared GroundTruth DataSet With HMP features,The second data set(GroundTruth DataSet With C3D features)has great influence on predicting more accurate data. While analysing the second data set we could reach the conclusion that the Random Forest Regression model is the best one.The results are tabulated as below (Table 1). and the scores are calculated using Spearman's Correlation.
+
+# V. DISCUSSION AND OUTLOOK
+Selecting the most relevant features of each feature data tests and then combining all that revant features into a ground truth set might give more accurate predictions.
+
+# REFERENCES
+
+[1] Romain Cohendet, Claire-Hélène Demarty, Ngoc Q. K.Duong1, Mats Sjöberg, Bogdan Ionescu, and Thanh-Toan Do.(2018). MediaEval 2018: Predicting Media Memorability. arXiv:1807.01052
+[2] Du Tran, Lubomir Bourdev, Rob Fergus, Lorenzo Torresani, and Manohar Paluri. 2015. Learning Spatiotemporal Features with 3D Convolutional Networks. In Proc. IEEE Int. Conf. on Computer Vision (ICCV). 4489–4497
+[3] Jurandy Almeida, Neucimar J Leite, and Ricardo da S Torres. 2011. Comparison of video sequences with histograms of motion patterns. In Image Processing (ICIP), 2011 18th IEEE International Conference on. IEEE, 3673–3676.
+[4] Navneet Dalal and Bill Triggs. 2005. Histograms of oriented gradients for human detection. In Computer Vision and Pattern Recognition, 2005. CVPR 2005. IEEE Computer Society Conference on, Vol. 1. IEEE, 886–893.
+[5] Dong-Chen He and Li Wang. 1990. Texture unit, texture spectrum, and texture analysis. IEEE transactions on Geoscience and Remote Sensing 28, 4 (1990), 509–512.
+[6] Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jon Shlens, and Zbigniew Wojna. 2016. Rethinking the inception architecture for computer vision. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2818–2826.
+[7] Ethan Rublee, Vincent Rabaud, Kurt Konolige, and Gary Bradski. 2011. ORB: An efficient alternative to
 
 
 
