@@ -39,8 +39,9 @@ As compared GroundTruth DataSet With HMP features,The second data set(GroundTrut
 Selecting the most relevant features of each feature data tests and then combining all that revant features into a ground truth set might give more accurate predictions.
 
 # REFERENCES
-[1] Romain Cohendet, Claire-Hélène Demarty, Ngoc Q. K.Duong1, Mats Sjöberg, Bogdan Ionescu, and Thanh-Toan Do.(2018). MediaEval 2018: Predicting Media Memorability. arXiv:1807.01052
-[2] Du Tran, Lubomir Bourdev, Rob Fergus, Lorenzo Torresani, and Manohar Paluri. 2015. Learning Spatiotemporal Features with 3D Convolutional Networks. In Proc. IEEE Int. Conf. on Computer Vision (ICCV). 4489–4497
+
+- [1] Romain Cohendet, Claire-Hélène Demarty, Ngoc Q. K.Duong1, Mats Sjöberg, Bogdan Ionescu, and Thanh-Toan Do.(2018). MediaEval 2018: Predicting Media Memorability. arXiv:1807.01052
+- [2] Du Tran, Lubomir Bourdev, Rob Fergus, Lorenzo Torresani, and Manohar Paluri. 2015. Learning Spatiotemporal Features with 3D Convolutional Networks. In Proc. IEEE Int. Conf. on Computer Vision (ICCV). 4489–4497
 [3] Jurandy Almeida, Neucimar J Leite, and Ricardo da S Torres. 2011. Comparison of video sequences with histograms of motion patterns. In Image Processing (ICIP), 2011 18th IEEE International Conference on. IEEE, 3673–3676.
 [4] Navneet Dalal and Bill Triggs. 2005. Histograms of oriented gradients for human detection. In Computer Vision and Pattern Recognition, 2005. CVPR 2005. IEEE Computer Society Conference on, Vol. 1. IEEE, 886–893.
 [5] Dong-Chen He and Li Wang. 1990. Texture unit, texture spectrum, and texture analysis. IEEE transactions on Geoscience and Remote Sensing 28, 4 (1990), 509–512.
