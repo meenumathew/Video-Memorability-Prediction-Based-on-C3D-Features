@@ -22,8 +22,8 @@ testing purposes. First I take HMP Features and then combine it with a ground tr
 have applied Principal Component Analysis (PCA) to this data set.Before implementing PCA,scale the X data to unit variance by using Standard Scaler Method.And then split
 the data sets as X_Tarin,Y_Train, X_Test, And Y_Test.After that build a four different model involves Linear Regression,Decision Tree Model,Gradient Boosting
 Regression and Random Forest Regression and then Calculate the Spearman’s Rank Correlation Coefficient of both Short Term Memorability Score and Long Term Memorability Score.The Spearman’s Rank Correlation Coefficient of predicted Y values helped me to realise HMP features has less influences on accurate prediction. This leads me to take another feature called C3D. The second model uses the joined data set of ground truth values and C3D features of video.The main steps involves in this phase are:
-● Make a list of video names and its C3D features and combine it as a single dataframe.
-● Merge this ground truth data set with C3D features with index as video name and save it as pickle file for easy access of data set .
+- ● Make a list of video names and its C3D features and combine it as a single dataframe.
+- ● Merge this ground truth data set with C3D features with index as video name and save it as pickle file for easy access of data set .
 ● Find X and Y variables and apply PCA after scaling the x values.
 ● Split the 80% of data set as training set and 20% of data set as testing set.
 ● Build a Linear Regression, Decision Tree Model, Gradient Boosting Regression and Random Forest Regression for both Short TErm Memorability and Long Term Memorability.
