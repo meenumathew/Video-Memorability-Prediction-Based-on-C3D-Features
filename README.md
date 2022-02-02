@@ -35,10 +35,10 @@ After analyzing the value of Spearman’s Rank Correlation Coefficient of this d
 
 As compared GroundTruth DataSet With HMP features,The second data set(GroundTruth DataSet With C3D features)has great influence on predicting more accurate data. While analysing the second data set we could reach the conclusion that the Random Forest Regression model is the best one.The results are tabulated as below (Table 1). and the scores are calculated using Spearman's Correlation.
 
-![Table.1 Results and Analysis of different Model](images/table1_ResultsAndAnalysisOfDifferentModel.JPG "Table.1 Results and Analysis of different Model")
-
-<p align="center">
 <img alt="Table.1 Results and Analysis of different Model" title="Table.1 Results and Analysis of different Model" src="http://www.fillmurray.com/100/100">
+<p align="center">  
+  ![Table.1 Results and Analysis of different Model](images/table1_ResultsAndAnalysisOfDifferentModel.JPG)
+  <em>Table.1 Results and Analysis of different Model</em>
 </p>
 
 # V. DISCUSSION AND OUTLOOK
